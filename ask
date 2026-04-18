@@ -2,7 +2,7 @@
 
 # 1. Checks whether passwords and settings are entered into the system
 if [[ -z "$ASK_API_URL" || -z "$ASK_MODEL" || -z "$ASK_API_KEY" ]]; then
-    echo "Hata: Lütfen değişkenleri ayarlayın." >&2
+    echo "Error: Please set ASK_API_URL, ASK_MODEL, and ASK_API_KEY variables." >&2
     exit 1
 fi
 
